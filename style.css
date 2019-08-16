@@ -52,17 +52,117 @@
 
 .container {
   padding-top: 100px;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 920px;
 }
 
 
 .col-md-4 {
   background-color: #343434;
-  border-color: #939799;
-  border-left: 1px;
-  border-left-style: solid;
-  height: 450px;
+  height: 500px;
+  padding: 0px;
+  position: relative;
+}
 
+#shoeMarker {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+  opacity: 0.2;
+}
+
+#shoeMarker-slideout {
+  visibility:hidden;
+}
+
+#booklet {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  opacity: 0.2;
+}
+
+#webAR {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  opacity: 0.2;
+  bottom: 30px;
+}
+
+#pop-up {
+  color: #DFC1C1;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 90px;
+  position: absolute;
+  top: -5px;
+}
+
+#booklet-text {
+  color: #DFC1C1;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 90px;
+  position: absolute;
+  bottom: 0px;
+  text-align: right;
+  right: 10px;
+}
+
+#web-text {
+  color: #DFC1C1;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 90px;
+  position: absolute;
+  bottom: 245px;
+  left: 10px;
+}
+
+#shoe-col:hover #shoeMarker {
+  opacity: 0.9;
+}
+
+#shoe-col:hover #pop-up {
+  opacity: 0.3;
+}
+
+#book-col:hover #booklet {
+  opacity: 0.9;
+}
+
+#book-col:hover #booklet-text {
+  opacity: 0.3;
+}
+
+#web-col:hover #webAR {
+  opacity: 0.9;
+}
+
+#web-col:hover #web-text {
+  opacity: 0.3;
+}
+
+.row:hover {
+  cursor: pointer;
+}
+
+
+
+@media (max-width:915px) {
+    .row{
+        display: block;
+    }
+    .col-md-4 {
+      max-width: 100%;
+    }
+    .container {
+      width: 500px;
+    }
+    #web-text {
+      top: 0;
+    }
+}
+
+
+.slide-out {
+  width: 920px;
 }
