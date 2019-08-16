@@ -1,0 +1,68 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+.header {
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+  background: #000;
+  color: white;
+  font-size: 30px;
+  height:110px;
+  width: 100%;
+}
+
+.header-logo {
+  position: relative;
+  top: 30px;
+  bottom: 0px;
+  display: inline-block;
+  padding-right: 60%;
+}
+
+.AR {
+  float: left;
+  margin-left: 3px;
+  margin-top: -4px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 3.18rem;
+  color: #DFC1C1;
+  position: absolute;
+
+}
+
+#superstar {
+    height:auto;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+#flower {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  display: inline-block;
+  float: right;
+  margin-top: -60px;
+  right: 5%;
+}
+
+/* information table */
+
+.container {
+  padding-top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 920px;
+}
+
+
+.col-md-4 {
+  background-color: #343434;
+  border-color: #939799;
+  border-left: 1px;
+  border-left-style: solid;
+  height: 450px;
+
+}
