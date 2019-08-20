@@ -3,7 +3,6 @@
 
 const Main = (() => {
 
-    let container = document.getElementsByClassName("container")[0];
     let SH = window.innerHeight;
     let SW = window.innerWidth;
 

@@ -48,12 +48,212 @@
   right: 5%;
 }
 
-/* information table */
-
 .container {
   padding-top: 100px;
-  width: 920px;
+  width: 1000px;
 }
+
+.popup-container {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#pop-up {
+  color: #DFC1C1;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 45px;
+  position: absolute;
+}
+
+#popup-use {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  color: black;
+  bottom: 74%;
+  left: 36%;
+}
+
+#popup-text {
+  position: absolute;
+  left: 36.2%;
+  bottom: 218px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 25pt;
+}
+
+#popup-app-button {
+  left: 40%;
+  height: 160px;
+  width: 250px;
+  bottom: 27px;
+}
+
+#popup-marker-button {
+  height: 160px;
+  width: 250px;
+  bottom: 27px;
+  left: 68%;
+}
+
+.download {
+  position: absolute;
+  background-color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+#shoeMarker {
+  position: absolute;
+  width: 300px;
+  bottom: 7%;
+  left: 3.5%;
+}
+
+.booklet-container {
+  width: 100%;
+  height: 650px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#booklet {
+  color: #DFC1C1;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 45px;
+  position: absolute;
+}
+
+#book-marker1 {
+  position: absolute;
+  width: 20%;
+  bottom: 41%;
+  left: 3.5%;
+}
+
+#book-marker2 {
+  position: absolute;
+  width: 30%;
+  bottom: 41%;
+  left: 24%;
+}
+
+#book-marker3 {
+  position: absolute;
+  width: 50.5%;
+  bottom: 0%;
+  left: 3.5%;
+}
+
+#booklet-use {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  color: black;
+  bottom: 84.4%;
+  left: 55%;
+}
+
+.booklet-text {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 25pt;
+}
+
+#booklet-text1 {
+  position: absolute;
+  left: 55.4%;
+  bottom: 305px;
+}
+
+#booklet-text2 {
+  position: absolute;
+  left: 71%;
+  bottom: 305px;
+}
+
+#booklet-text3 {
+  position: absolute;
+  left: 55.4%;
+  bottom: 220px;
+}
+
+#booklet-app-button {
+  left: 55.5%;
+  height: 110px;
+  width: 350px;
+  bottom: 18%;
+}
+
+#booklet-marker-button {
+  height: 110px;
+  width: 350px;
+  bottom: 0%;
+  left: 55.5%;
+}
+
+.web-container {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#webMarker {
+  position: absolute;
+  width: 400px;
+  bottom: 8%;
+  left: 3.5%;
+}
+
+#web-use {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  color: black;
+  bottom: 75.5%;
+  left: 46%;
+}
+
+#web-text {
+  left: 46.3%;
+  bottom: 151px;
+}
+
+#web-app-button {
+  left: 51%;
+  height: 120px;
+  width: 200px;
+  bottom: 7%;
+}
+
+#web-marker-button {
+  height: 120px;
+  width: 200px;
+  bottom: 7%;
+  left: 73%;
+}
+
+
+
+
+
+
+
+
+/* information table */
+
+
 
 
 .col-md-4 {
@@ -63,24 +263,11 @@
   position: relative;
 }
 
-#shoeMarker {
-  position: absolute;
-  bottom: 0;
-  box-sizing: border-box;
-  width: 100%;
-  opacity: 0.2;
-}
 
 #shoeMarker-slideout {
   visibility:hidden;
 }
 
-#booklet {
-  position: absolute;
-  box-sizing: border-box;
-  width: 100%;
-  opacity: 0.2;
-}
 
 #webAR {
   position: absolute;
@@ -90,13 +277,6 @@
   bottom: 30px;
 }
 
-#pop-up {
-  color: #DFC1C1;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 90px;
-  position: absolute;
-  top: -5px;
-}
 
 #booklet-text {
   color: #DFC1C1;
@@ -108,14 +288,6 @@
   right: 10px;
 }
 
-#web-text {
-  color: #DFC1C1;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 90px;
-  position: absolute;
-  bottom: 245px;
-  left: 10px;
-}
 
 #shoe-col:hover #shoeMarker {
   opacity: 0.9;

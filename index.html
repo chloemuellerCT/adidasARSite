@@ -31,26 +31,47 @@
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4 slide-in" id="shoe-col">
-          <img id="shoeMarker" src="assets/armarker.jpg" alt="Shoe Marker">
-          <h2 id="pop-up">POP<br>UP</h2>
-        </div>
-        <div class="col-md-4" id="book-col">
-          <img id="booklet" src="assets/Retail Update.jpg" alt="Booklet">
-          <h2 id="booklet-text">BOOK<br>LET</h2>
-        </div>
-        <div class="col-md-4" id="web-col">
-          <img id="webAR" src="assets/Adi TV-01.png" alt="webAR">
-          <h2 id="web-text">WEB</h2>
-        </div>
+
+      <div class="popup-container">
+        <h2 id="pop-up"> ADIDAS AR POP UP (iOS) </h2>
+        <img id="shoeMarker" src="assets/armarker.jpg" alt="Shoe Marker">
+        <h3 id="popup-use"> TO USE </h3>
+        <p id="popup-text"> place marker on floor. open iOS app and scan with device.<br>
+          look up with device. walk through the door. tap shoes to interact. </p>
+        <button class="download" id="popup-app-button"> download <br> the app </button>
+        <button class="download" id="popup-marker-button"> download <br> markers </button>
       </div>
 
-      <hr>
+      <div class="booklet-container">
+        <h2 id="booklet"> ADIDAS AR BOOKLET (iOS) </h2>
+        <img id="book-marker1" src="assets/marker_booklet_shoe.jpg" alt="Booklet Marker 1">
+        <img id="book-marker2" src="assets/Retail Update.jpg" alt="Booklet Marker 2">
+        <img id="book-marker3" src="assets/marker_booklet_window.jpg" alt="Booklet Marker 3">
+        <h3 id="booklet-use"> TO USE </h3>
+        <p class= "booklet-text" id="booklet-text1"> open booklet. <br> place shoe <br> marker (top left) <br> on a table. <br>
+          open iOS app <br> and scan <br> with device. </p>
+        <p class= "booklet-text" id="booklet-text2"> place store display <br> marker (top right) <br> on the floor.
+          a store <br> model will pop-up. <br> you will be able to <br> walk around the <br> inside of the store. </p>
+        <p class= "booklet-text" id="booklet-text3"> stick/tape the window marker (bottom) <br> on wall.
+          scan the marker to view animation. </p>
+        <button class="download" id="booklet-app-button"> download <br> the app </button>
+        <button class="download" id="booklet-marker-button"> download <br> markers </button>
+      </div>
 
-      <footer>
-        <p>&copy; Company 2017</p>
-      </footer>
+      <div class="web-container">
+        <h2 id="pop-up"> WEB AR (mobile browser)</h2>
+        <img id="webMarker" src="assets/Adi TV-01.png" alt="Web Marker">
+        <h3 id="web-use"> TO USE </h3>
+        <p class= "booklet-text" id="web-text"> place the WebAR marker on a wall or similar surface (do not place on a table).
+        navigate to URLs (index.html must be included in url). scan the entire poster into the given scan area.
+        allow access to your camera.</p>
+        <button class="download" id="web-app-button"> download <br> the app </button>
+        <button class="download" id="web-marker-button"> download <br> markers </button>
+      </div>
+
+
+
+
     </div> <!-- /container -->
 
 
@@ -62,7 +83,7 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="bootstrap.min.js"></script>
-    <<script src="script.js"></<script>
+    <script src="script.js"></<script>
 
     </script>
 
